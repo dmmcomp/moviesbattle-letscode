@@ -47,5 +47,7 @@ A aplicação foi criada utilizando o banco de dados em memória H2. É possíve
 http://127.0.0.1:8080/h2
 ```
 
+As credência de acesso ao banco estão disponíveis no arquivo de propriedades do projeto (A nível de avaliação).
+
 
 #### Obrigado!
