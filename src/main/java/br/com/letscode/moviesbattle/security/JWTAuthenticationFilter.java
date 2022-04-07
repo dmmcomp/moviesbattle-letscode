@@ -1,6 +1,6 @@
 package br.com.letscode.moviesbattle.security;
 
-import br.com.letscode.moviesbattle.data.UserDetailData;
+import br.com.letscode.moviesbattle.security.data.UserDetailData;
 import br.com.letscode.moviesbattle.entity.User;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

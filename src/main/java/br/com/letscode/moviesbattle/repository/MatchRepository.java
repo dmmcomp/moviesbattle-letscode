@@ -1,6 +1,6 @@
 package br.com.letscode.moviesbattle.repository;
 
-import br.com.letscode.moviesbattle.constant.Status;
+import br.com.letscode.moviesbattle.utils.constant.Status;
 import br.com.letscode.moviesbattle.entity.Match;
 import br.com.letscode.moviesbattle.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;

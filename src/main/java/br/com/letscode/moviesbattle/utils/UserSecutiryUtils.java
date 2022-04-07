@@ -1,4 +1,4 @@
-package br.com.letscode.moviesbattle.Utils;
+package br.com.letscode.moviesbattle.utils;
 
 import br.com.letscode.moviesbattle.security.JWTAuthenticationFilter;
 import com.auth0.jwt.JWT;

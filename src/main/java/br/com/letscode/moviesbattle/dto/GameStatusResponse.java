@@ -1,6 +1,6 @@
-package br.com.letscode.moviesbattle.DTO;
+package br.com.letscode.moviesbattle.dto;
 
-import br.com.letscode.moviesbattle.constant.Status;
+import br.com.letscode.moviesbattle.utils.constant.Status;
 import br.com.letscode.moviesbattle.entity.Game;
 import lombok.Data;
 

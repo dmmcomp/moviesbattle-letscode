@@ -1,7 +1,7 @@
 package br.com.letscode.moviesbattle.controller;
 
-import br.com.letscode.moviesbattle.DTO.GameStatusResponse;
-import br.com.letscode.moviesbattle.Utils.UserSecutiryUtils;
+import br.com.letscode.moviesbattle.dto.GameStatusResponse;
+import br.com.letscode.moviesbattle.utils.UserSecutiryUtils;
 import br.com.letscode.moviesbattle.entity.Game;
 import br.com.letscode.moviesbattle.entity.Match;
 import br.com.letscode.moviesbattle.entity.User;
@@ -9,10 +9,7 @@ import br.com.letscode.moviesbattle.service.GameService;
 import br.com.letscode.moviesbattle.service.MatchService;
 import br.com.letscode.moviesbattle.service.MovieService;
 import br.com.letscode.moviesbattle.service.UserService;
-import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
-import io.swagger.v3.oas.annotations.security.SecurityScheme;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;

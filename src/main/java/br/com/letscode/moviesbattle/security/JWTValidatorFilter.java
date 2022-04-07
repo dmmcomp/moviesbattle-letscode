@@ -1,18 +1,9 @@
 package br.com.letscode.moviesbattle.security;
 
-import br.com.letscode.moviesbattle.Utils.UserSecutiryUtils;
-import br.com.letscode.moviesbattle.data.UserDetailData;
-import br.com.letscode.moviesbattle.entity.User;
-import com.auth0.jwt.JWT;
-import com.auth0.jwt.algorithms.Algorithm;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import br.com.letscode.moviesbattle.utils.UserSecutiryUtils;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.web.AuthenticationEntryPoint;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 
 import javax.servlet.FilterChain;
@@ -21,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Date;
 
 
 public class JWTValidatorFilter extends BasicAuthenticationFilter {

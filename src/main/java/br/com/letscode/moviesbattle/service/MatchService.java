@@ -1,9 +1,8 @@
 package br.com.letscode.moviesbattle.service;
 
-import br.com.letscode.moviesbattle.constant.Status;
+import br.com.letscode.moviesbattle.utils.constant.Status;
 import br.com.letscode.moviesbattle.entity.Game;
 import br.com.letscode.moviesbattle.entity.Match;
-import br.com.letscode.moviesbattle.entity.Ranking;
 import br.com.letscode.moviesbattle.entity.User;
 import br.com.letscode.moviesbattle.repository.MatchRepository;
 import org.springframework.beans.factory.annotation.Autowired;

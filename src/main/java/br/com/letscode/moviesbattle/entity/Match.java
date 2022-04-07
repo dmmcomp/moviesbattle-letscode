@@ -1,9 +1,8 @@
 package br.com.letscode.moviesbattle.entity;
 
-import br.com.letscode.moviesbattle.constant.Status;
+import br.com.letscode.moviesbattle.utils.constant.Status;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

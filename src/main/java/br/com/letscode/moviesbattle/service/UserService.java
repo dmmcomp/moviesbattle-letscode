@@ -1,13 +1,10 @@
 package br.com.letscode.moviesbattle.service;
 
-import br.com.letscode.moviesbattle.data.UserDetailData;
-import br.com.letscode.moviesbattle.entity.Movie;
+import br.com.letscode.moviesbattle.security.data.UserDetailData;
 import br.com.letscode.moviesbattle.entity.User;
-import br.com.letscode.moviesbattle.repository.MovieRepository;
 import br.com.letscode.moviesbattle.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.client.ClientHttpRequestExecution;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

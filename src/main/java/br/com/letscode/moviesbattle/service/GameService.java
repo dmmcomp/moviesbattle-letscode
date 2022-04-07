@@ -1,6 +1,6 @@
 package br.com.letscode.moviesbattle.service;
 
-import br.com.letscode.moviesbattle.constant.Status;
+import br.com.letscode.moviesbattle.utils.constant.Status;
 import br.com.letscode.moviesbattle.entity.Game;
 import br.com.letscode.moviesbattle.entity.Match;
 import br.com.letscode.moviesbattle.entity.Movie;

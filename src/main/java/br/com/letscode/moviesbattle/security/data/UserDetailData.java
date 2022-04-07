@@ -1,7 +1,6 @@
-package br.com.letscode.moviesbattle.data;
+package br.com.letscode.moviesbattle.security.data;
 
 import br.com.letscode.moviesbattle.entity.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
