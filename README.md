@@ -2,6 +2,8 @@
 
 O projeto consiste basicamente em um jogo de cartas, o sistema apresentará duas opções de Filmes e o usuário deverá escolher o de maior pontuação, segundo o IMDB.
 
+A aplicação contém um web scraping que recupera os dados dos filmes mais populares, segundo o site do [IMDB](https://www.imdb.com/chart/moviemeter/?ref_=nv_mv_mpm).
+
 ## Dependências
 * JDK 11: Necessário para executar o projeto
 * Maven 3: Necessário para realizar o build do projeto Java
@@ -46,6 +48,8 @@ A aplicação foi criada utilizando o banco de dados em memória H2. É possíve
 ```
 http://127.0.0.1:8080/h2
 ```
+
+As credência de acesso ao banco estão disponíveis no arquivo de propriedades do projeto (A nível de avaliação).
 
 
 #### Obrigado!
